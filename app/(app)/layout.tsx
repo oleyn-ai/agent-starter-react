@@ -27,8 +27,8 @@ export default async function AppLayout({ children }: AppLayoutProps) {
             className="hidden size-6 dark:block"
           />
         </a>
-        <span className="text-foreground font-mono text-xs font-bold tracking-wider uppercase">
-          Built with{' '}
+        {/* <span className="text-foreground font-mono text-xs font-bold tracking-wider uppercase">
+          Built by{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default async function AppLayout({ children }: AppLayoutProps) {
           >
             LiveKit Agents
           </a>
-        </span>
+        </span> */}
       </header>
       {children}
     </>
